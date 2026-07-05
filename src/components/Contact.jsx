@@ -70,22 +70,22 @@ export default function Contact() {
 
           {/* Vinted card */}
           <a
-            href="https://www.vinted.fr"
+            href="https://www.vinted.fr/member/3127626063"
             target="_blank"
             rel="noopener noreferrer"
-            className="group bg-[#FAF8F5] rounded-2xl p-8 text-center hover:bg-[#1C1717] transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-[#1C1717]/20 hover:-translate-y-1 sm:col-span-2 lg:col-span-1"
+            className="group bg-[#FAF8F5] rounded-2xl p-8 text-center hover:bg-[#09B3A5] transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-[#09B3A5]/20 hover:-translate-y-1 sm:col-span-2 lg:col-span-1"
           >
-            <div className="w-14 h-14 bg-[#1C1717] group-hover:bg-white rounded-2xl flex items-center justify-center mx-auto mb-5 transition-colors">
-              <Package size={24} className="text-white group-hover:text-[#1C1717] transition-colors" />
+            <div className="w-14 h-14 bg-[#09B3A5] group-hover:bg-white rounded-2xl flex items-center justify-center mx-auto mb-5 transition-colors">
+              <Package size={24} className="text-white group-hover:text-[#09B3A5] transition-colors" />
             </div>
             <h3 className="font-['Playfair_Display'] text-xl font-semibold text-[#1C1717] group-hover:text-white mb-2 transition-colors">
-              Livraison
+              Vinted
             </h3>
             <p className="text-[#1C1717]/55 group-hover:text-white/70 text-sm mb-3 transition-colors">
-              Expédition sécurisée
+              Livraison sécurisée
             </p>
-            <p className="font-semibold text-[#1C1717] group-hover:text-white text-sm transition-colors">
-              Via Vinted
+            <p className="font-semibold text-[#09B3A5] group-hover:text-white text-sm transition-colors">
+              @Inbsq
             </p>
           </a>
         </div>

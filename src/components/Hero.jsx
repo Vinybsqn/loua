@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import imgHero from '../../../inspi_photo/IMG_2173.jpg'
+const imgHero = '/images/IMG_2173.jpg'
 
 export default function Hero() {
   const [visible, setVisible] = useState(false)

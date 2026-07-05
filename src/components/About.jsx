@@ -1,4 +1,4 @@
-import imgLifestyle from '../../../inspi_photo/IMG_2181.jpg'
+const imgLifestyle = '/images/IMG_2181.jpg'
 import { ExternalLink } from 'lucide-react'
 
 export default function About() {

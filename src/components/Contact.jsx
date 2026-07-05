@@ -51,7 +51,7 @@ export default function Contact() {
 
           {/* Email card */}
           <a
-            href="mailto:loua.creation@gmail.com"
+            href="mailto:loua.creations@gmail.com"
             className="group bg-[#FAF8F5] rounded-2xl p-8 text-center hover:bg-[#C9A86C] transition-all duration-300 shadow-sm hover:shadow-xl hover:shadow-[#C9A86C]/20 hover:-translate-y-1"
           >
             <div className="w-14 h-14 bg-[#C9A86C] group-hover:bg-white rounded-2xl flex items-center justify-center mx-auto mb-5 transition-colors">
@@ -64,7 +64,7 @@ export default function Contact() {
               Pour les commandes détaillées
             </p>
             <p className="font-semibold text-[#C9A86C] group-hover:text-white text-sm transition-colors">
-              loua.creation@gmail.com
+              loua.creations@gmail.com
             </p>
           </a>
 

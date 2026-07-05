@@ -8,7 +8,7 @@ import { DEFAULT_PRODUCTS } from '../data/products'
 const buildMailto = (order) => {
   const subject = `Commande LØUA - ${order.model} ${order.color1}${order.color2 ? '/' + order.color2 : ''}`
   const body = `Bonjour,\n\nJe souhaite commander :\n\nModèle : ${order.model} (${order.price}€)\nCouleur principale : ${order.color1}\nCouleur secondaire : ${order.color2 || 'Non'}\n\nMes coordonnées :\nNom : ${order.name}\nContact : ${order.contact}\n\nMessage : ${order.message || 'Aucun'}\n\nMerci !`
-  return `mailto:loua.creation@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+  return `mailto:loua.creations@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
 }
 
 function StepIndicator({ step }) {
@@ -105,8 +105,8 @@ export default function Configurator({ preSelectedProduct, onPreSelectedConsumed
             </h3>
             <p className="text-[#1C1717]/60 mb-6 leading-relaxed">
               Votre email a été préparé. Si l'application mail ne s'est pas ouverte, envoyez directement un message à{' '}
-              <a href="mailto:loua.creation@gmail.com" className="text-[#C85888] font-medium underline underline-offset-2">
-                loua.creation@gmail.com
+              <a href="mailto:loua.creations@gmail.com" className="text-[#C85888] font-medium underline underline-offset-2">
+                loua.creations@gmail.com
               </a>
             </p>
             <p className="text-[#1C1717]/50 text-sm mb-8">
